@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '../../components/Header/Header'
 import Hero from '../../components/Hero/Hero'
 import Cards from '../../components/Cards/Cards'
+import Services from '../../components/Services/Services'
+import Contact from '../../components/Contact/Contact'
 
 function Home() {
 
@@ -10,6 +12,8 @@ function Home() {
       <Header/>
       <Hero/>
       <Cards/>
+      <Services/>
+      <Contact/>
     </div>
 
   )

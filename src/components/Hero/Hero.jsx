@@ -7,10 +7,7 @@ function Hero() {
             <div className="hero__inner container">
                 <h2 className='hero__title'>Ihre Autowerkstatt in <br /> Gelsenkirchen</h2>
                 <ul className='hero__list'>
-                    <li className='hero__item'>
-                        <img src={heroIcon} alt="" />
-                        <p>Ihre Autowerkstatt in Gelsenkirchen</p>
-                    </li>
+
                     <li className='hero__item'>
                         <img src={heroIcon} alt="" />
                         <p>Erfahrene Mechaniker und Meister</p>

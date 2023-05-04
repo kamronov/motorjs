@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/img/logo.svg'
+import logo from '../../assets/img/logo1.png'
 import './Header.scss'
 import { Link } from 'react-router-dom'
 function Header() {
@@ -30,7 +30,6 @@ function Header() {
                 </nav>
         </header>
         <div className="header_bottom_line">
-            <p className='container'>macht lhr Auto fit!</p>
         </div>
         <div className="header__red_line"></div>
     </div>

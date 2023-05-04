@@ -1,15 +1,14 @@
 .cards {
-    position: relative;
-    padding: 237px 0;
-    background-image: url('../../assets/img/boltlar.png');
+    .card_bg{
+        max-width: 1421px;
+        margin: 0 auto;
+            background-image: url('../../assets/img/boltlar.png');
     background-repeat: no-repeat;
-    background-position: bottom -164px right;
+    background-position: bottom -135px right -20px;
+    }
 }
 .card_header {
-    position: absolute;
     width: 100%;
-    top: -19px;
-    // bottom: 0;    
     img {
         width: 100%;
         height: 68px;
@@ -18,7 +17,8 @@
 }
 
 .cards__list {
-
+    margin-top: 102px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -26,20 +26,20 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    width: 477px;
-    height: 755px;
+    width: 365px;
+    height: 580px;
     font-weight: 400;
-font-size: 17px;
-line-height: 21px;
+    font-size: 15px;
+    line-height: 18px;
 color: #FFFFFF;
     &:nth-child(1){
         position: relative;
-        background-image: url('../../assets/img/item1.png');
+        background-image: url('../../assets/img/item1.jpg');
         &::before{
             position: absolute;
             top: 0;
             left: 0;
-            transform: translate(-40%, -40%);
+            transform: translate(-47%, -45%);
             content: '';
             width: 183px;
             height: 183px;
@@ -47,24 +47,32 @@ color: #FFFFFF;
             background-repeat: no-repeat;
             background-size: cover;
         }
+         li:nth-child(1) {
+            margin-top: 0;
+            margin-bottom: 20px;
+         }
     }
     &:nth-child(2){
-        background-image: url('../../assets/img/item2.png');
+        background-image: url('../../assets/img/item2.jpg');
     } 
     &:nth-child(3){
-        background-image: url('../../assets/img/item3.png');
+        background-image: url('../../assets/img/item3.jpg');
     }
     ul {
-        width: 397px;
+        width: 315px;
         list-style-type: disc;
         margin-bottom:  30px;
-        margin-left: 30px;
+        margin-left: 10px;
         li {
-            margin-top: 17px;
+            margin-top: 10px;
         }
     }
 }
 .card_footer{
- position: absolute;
- bottom: 0;   
+  width: 100%; 
+  img {
+    width: 100%;
+    height: 68px;
+    object-fit: cover;
+}
 }

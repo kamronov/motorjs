@@ -1,0 +1,74 @@
+.services {
+    border: 1px solid;
+    background-image: url('../../assets/img/sevicebg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 820px;
+    padding-top: 47px;
+    padding-bottom: 67px;
+}
+
+.service__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.service__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.services__list {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+    li {
+        div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            img {
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+            }
+            p{
+                max-width: 308px;
+                margin-left: 10px;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+.service__btn {
+    border: none;
+    margin: 0 auto;
+    i {
+        margin-left: 21px;
+    }
+    padding: 18px 22px 18px 30px;
+    font-weight: 600;
+font-size: 23px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background: #E4183B;
+box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.45);
+border-radius: 5px;
+transition: all ease 0.3s;
+&:hover{
+    background-color: #fff;
+    color: #E4183B;
+}
+}
