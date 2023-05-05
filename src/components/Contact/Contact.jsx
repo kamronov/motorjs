@@ -6,7 +6,7 @@ function Contact() {
             <div className="contact container">
                 <div className="contact__inner">
                     <div className="contact__title">
-                        <h2>Kontakt</h2>
+                        <h2 id='Co'>Kontakt</h2>
                         <p>Vertrauen Sie Ihr Auto den echten Profis an und erhalten Sie zuverlässigen und hochwertigen Service in unserer Autowerkstatt!</p>
                     </div>
 

@@ -4,7 +4,7 @@ import Hero from '../../components/Hero/Hero'
 import Cards from '../../components/Cards/Cards'
 import Services from '../../components/Services/Services'
 import Contact from '../../components/Contact/Contact'
-
+import Footer from '../../components/Footer/Footer'
 function Home() {
 
   return (
@@ -14,6 +14,7 @@ function Home() {
       <Cards/>
       <Services/>
       <Contact/>
+      <Footer/>
     </div>
 
   )

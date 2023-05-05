@@ -21,7 +21,7 @@ function Services() {
   return (
     <div>
       <div className="services">
-        <h2 className='service__title'>Die Leistungen unseres Fachbetriebes</h2>
+        <h2 id='De' className='service__title'>Die Leistungen unseres Fachbetriebes</h2>
         <p className='service__text'>Sehr günstige Lage der Autowerkstatt mit sehr guter <br /> Verkehrsanbindung in Gelsenkirchen Buer</p>
 
         <ul className="services__list container">

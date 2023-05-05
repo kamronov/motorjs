@@ -18,10 +18,10 @@ function Header() {
                             <Link to='/'>Startseite</Link>
                         </li>
                         <li className='header__item'>
-                            <Link to='/'>Dienstleistungen</Link>
+                           <a href="#De">Dienstleistungen</a>
                         </li>
                         <li className='header__item'>
-                            <Link to='/'>Kontakt</Link>
+                            <a href="#Co">Kontakt</a>
                         </li>
                         <li className='header__item'>
                             <Link to='/'>Kontaktformular</Link>
